@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ecf23-add0-4102-9ced-125b7bea4a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RotatedBinaryTreeDemo/RotatedBinaryTreeDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RotatedBinaryTreeDemo/src/RotatedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,17 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vertex/src/VertexSimulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1286">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="-1216">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/floyed/src/FloyedSimulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/floyed/src/FloyedSimulation.java">
+        <entry file="file://$PROJECT_DIR$/RotatedBinaryTreeDemo/src/RotatedBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="141">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -83,6 +95,7 @@
         <option value="$PROJECT_DIR$/vertex/src/Vertex.java" />
         <option value="$PROJECT_DIR$/vertex/src/VertexSimulation.java" />
         <option value="$PROJECT_DIR$/floyed/src/FloyedSimulation.java" />
+        <option value="$PROJECT_DIR$/RotatedBinaryTreeDemo/src/RotatedBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -93,13 +106,6 @@
         <option name="mavenHome" value="G:/maven/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="G:\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -129,17 +135,11 @@
             <path>
               <item name="grim" type="b2602c69:ProjectViewProjectNode" />
               <item name="grim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RotatedBinaryTreeDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grim" type="b2602c69:ProjectViewProjectNode" />
               <item name="grim" type="462c0819:PsiDirectoryNode" />
-              <item name="vertex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grim" type="462c0819:PsiDirectoryNode" />
-              <item name="vertex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -171,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloyedSimulation">
+  <component name="RunManager" selected="Application.RotatedBinaryTree">
     <configuration name="FloyedSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FloyedSimulation" />
       <module name="floyed" />
@@ -186,6 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotatedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotatedBinaryTree" />
+      <module name="RotatedBinaryTreeDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VertexSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VertexSimulation" />
       <module name="vertex" />
@@ -195,6 +202,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotatedBinaryTree" />
         <item itemvalue="Application.FloyedSimulation" />
         <item itemvalue="Application.VertexSimulation" />
         <item itemvalue="Application.Grim" />
@@ -216,7 +224,7 @@
       <workItem from="1561965345202" duration="2711000" />
       <workItem from="1561969923162" duration="1195000" />
       <workItem from="1562026737030" duration="7233000" />
-      <workItem from="1562034111566" duration="10154000" />
+      <workItem from="1562034111566" duration="14631000" />
     </task>
     <task id="LOCAL-00001" summary="add floyedSimulation">
       <created>1562054246729</created>
@@ -236,11 +244,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25408000" />
+    <option name="totallyTimeSpent" value="29885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.267653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -251,15 +258,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="aiXcoder" side_tool="true" visible="true" weight="0.12911904" />
@@ -276,6 +283,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add floyedSimulation" />
@@ -319,17 +352,24 @@
     <entry file="file://$PROJECT_DIR$/vertex/vertex.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vertex/src/VertexSimulation.java">
+    <entry file="file://$PROJECT_DIR$/floyed/src/FloyedSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1286">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="760">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/floyed/src/FloyedSimulation.java">
+    <entry file="file://$PROJECT_DIR$/vertex/src/VertexSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="-1216">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RotatedBinaryTreeDemo/src/RotatedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
     </entry>
