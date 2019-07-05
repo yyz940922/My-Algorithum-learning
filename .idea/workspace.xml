@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ecf23-add0-4102-9ced-125b7bea4a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prim/prim.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prim/src/com/algorithm/PrimAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prim/src/com/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grim/Grim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grim/Grim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prim/prim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prim/prim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prim/src/com/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/prim/src/com/graph/Graph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Grim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
+            <state relative-caret-position="1026">
               <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,26 +50,36 @@
         <entry file="file://$PROJECT_DIR$/prim/src/com/algorithm/PrimAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prim/src/com/graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-811">
+              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#1838#1839#0" expanded="true" />
+                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="e#2065#2066#0" expanded="true" />
+                <element signature="e#2546#2547#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prim/src/com/graph/Graph.java">
+        <entry file="file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="285">
+              <caret line="21" column="108" lean-forward="true" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1879#1880#0" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +91,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -100,6 +109,7 @@
         <option value="$PROJECT_DIR$/binary heap/src/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/prim/src/PrimAlgorithm.java" />
         <option value="$PROJECT_DIR$/prim/src/com/algorithm/PrimAlgorithm.java" />
+        <option value="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" />
         <option value="$PROJECT_DIR$/prim/src/com/graph/Graph.java" />
       </list>
     </option>
@@ -131,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,16 +199,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring03_fac" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.graph" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Grim">
+  <component name="RunManager" selected="JUnit.GraphTest.testGraph">
     <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryHeap" />
       <module name="binary heap" />
@@ -243,20 +268,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VertexSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VertexSimulation" />
-      <module name="vertex" />
+    <configuration name="GraphTest.testGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.graph.GraphTest" />
+      <option name="METHOD_NAME" value="testGraph" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GraphTest.testGraph" />
         <item itemvalue="Application.Grim" />
         <item itemvalue="Application.BinaryHeap" />
         <item itemvalue="Application.RotatedBinaryTree" />
         <item itemvalue="Application.FloyedSimulation" />
-        <item itemvalue="Application.VertexSimulation" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +315,8 @@
       <workItem from="1562217719756" duration="590000" />
       <workItem from="1562227694276" duration="673000" />
       <workItem from="1562230159402" duration="737000" />
-      <workItem from="1562239277952" duration="6905000" />
+      <workItem from="1562239277952" duration="7015000" />
+      <workItem from="1562284808213" duration="15343000" />
     </task>
     <task id="LOCAL-00001" summary="add floyedSimulation">
       <created>1562054246729</created>
@@ -304,17 +339,56 @@
       <option name="project" value="LOCAL" />
       <updated>1562080858359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add graph class">
+      <created>1562257757524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562257757524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 10h 59m 29s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 11h 05m 08s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 11h 08m 30s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 14h 32m 56s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 14h 39m 20s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 15h 01m 31s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 15h 02m 13s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 15h 13m 49s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 15h 27m 14s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph - 2019.07.05 at 15h 27m 42s.xml">
+      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49811000" />
+    <option name="totallyTimeSpent" value="65264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19569603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1990585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,8 +397,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -333,17 +407,17 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4978903" weight="0.24949563" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.4957806" weight="0.32952252" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49367088" weight="0.32952252" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" sideWeight="0.4957806" weight="0.32952252" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.49367088" weight="0.32952252" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="aiXcoder" order="9" sideWeight="0.5042194" side_tool="true" visible="true" weight="0.020174848" />
+      <window_info anchor="right" id="aiXcoder" order="9" sideWeight="0.5063291" side_tool="true" visible="true" weight="0.020174848" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +467,20 @@
     <MESSAGE value="add floyedSimulation" />
     <MESSAGE value="add all" />
     <MESSAGE value="add binaryHeap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add binaryHeap" />
+    <MESSAGE value="add graph class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add graph class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -459,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Grim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
+        <state relative-caret-position="1026">
           <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -467,27 +554,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prim/src/com/algorithm/PrimAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prim/src/com/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-811">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2546#2547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="108" lean-forward="true" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

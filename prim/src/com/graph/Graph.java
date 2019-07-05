@@ -1,15 +1,16 @@
 package com.graph;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Objects;
 
 public class Graph {
     private String[] node;
-    private Integer[] weight;
+    private Integer[][] weight;
     private HashMap<String, String> link = new HashMap<>();
     private HashMap<String, Integer> linkAndWeight = new HashMap<>();
 
-    public Graph(String[] node, Integer[] weight) {
+    public Graph(String[] node, Integer[][] weight) {
         this.node = node;
         this.weight = weight;
     }
@@ -28,29 +29,32 @@ public class Graph {
      * @param weight
      * @return
      */
-    public HashMap<String, Integer> getLinkAndWeight(String[] node, Integer[] weight){
+    public HashMap<String, Integer> getLinkAndWeight(String[] node, Integer[][] weight){
 
         HashMap<String, Integer> linkAndWeightMap = new HashMap<>();
 
-        String[] combinedLinks = new String[]{};
+        // String[] combinedLinks = new String[node.length*node.length];
+        String combinedLinks = "";
 
         for (int i = 0; i < this.getNodeSize(); i++){
             for (int j = 0; j < this.getNodeSize(); j++){
                 if (node[i].equals(node[j])){
-                    this.weight[i] = 0;
+                    this.weight[i][j] = 0;
                 }
-                combinedLinks[i] = node[i]+"-"+node[j];
-                System.out.println(combinedLinks[i]);
+                combinedLinks = node[i]+"-"+node[j];
+                if (node.length == weight.length) {
+
+                    //   System.out.println(combinedLinks);
+                    //  System.out.println("------------------------");
+                    // System.out.println(weight[i]);
+                    linkAndWeightMap.put(combinedLinks, weight[i][j]);
+                    //System.out.println(linkAndWeightMap);
+                } else {
+                    System.out.println("节点对数与权重数量不符合");
+                }
             }
         }
-        if (combinedLinks.length == weight.length) {
-            for (int k = 0; k < combinedLinks.length; k++) {
-                linkAndWeightMap.put(combinedLinks[k], weight[k]);
-                System.out.println(linkAndWeightMap);
-            }
-        } else {
-            System.out.println("节点对数与权重数量不符合");
-        }
+
         return linkAndWeightMap;
     }
 
@@ -62,12 +66,12 @@ public class Graph {
         this.node = node;
     }
 
-    public Integer[] getWeight() {
+    public Integer[][] getWeight() {
         return weight;
 
     }
 
-    public void setWeight(Integer[] weight) {
+    public void setWeight(Integer[][] weight) {
         this.weight = weight;
     }
 
@@ -85,5 +89,15 @@ public class Graph {
     @Override
     public int hashCode() {
         return Objects.hash(node, weight, link, linkAndWeight);
+    }
+
+    @Override
+    public String toString() {
+        return "Graph{" +
+                "node=" + Arrays.toString(node) +
+                ", weight=" + Arrays.toString(weight) +
+                ", link=" + link +
+                ", linkAndWeight=" + linkAndWeight +
+                '}';
     }
 }
