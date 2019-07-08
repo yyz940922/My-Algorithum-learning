@@ -6,8 +6,12 @@ import java.util.HashMap;
 
 public class GraphTest {
 
+
     @Test
     public void testGraph(){
+        /**
+         * 模型 1，城市距离图, 单位km, 有向等权图, 除反斜率对角线外, 其他都满足a[i][j] + a[j][i]
+         */
         String[] nodes = {"Shanghai", "BeiJing", "Auckland", "Urbana Champaign", "Sydney", "FrankFurt"};
         Integer[][] weights = {{0, 3000, 12000, 17000, 10000, 11000},
                             {3000, 0, 14000, 17000, 12000, 10000},

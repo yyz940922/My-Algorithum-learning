@@ -77,7 +77,7 @@ public class Graph {
         for (int i = 0; i < this.getNodeSize(); i++) {
             for (int j = 0; j < this.getNodeSize(); j++) {
                 if (node[i].equals(node[j])) {
-                    weight[i][j] = Double.valueOf(0);
+                    weight[i][j] = 0.0;
                 }
                 combinedLinks = node[i] + " vs " + node[j];
 
