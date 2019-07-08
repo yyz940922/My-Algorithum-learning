@@ -6,42 +6,44 @@ import java.util.Objects;
 
 public class Graph {
     private String[] node;
-    private Integer[][] weight;
+    private Object[][] weight;
     private HashMap<String, String> link = new HashMap<>();
-    private HashMap<String, Integer> linkAndWeight = new HashMap<>();
+    private HashMap<String, Object> linkAndWeight = new HashMap<>();
 
-    public Graph(String[] node, Integer[][] weight) {
+
+    public Graph(String[] node, Object[][] weight) {
         this.node = node;
         this.weight = weight;
     }
 
-    public Integer getNodeSize(){
+    public Integer getNodeSize() {
         return this.getNode().length;
     }
 
-    public Integer getWeightSize(){
+    public Integer getWeightSize() {
         return this.getWeight().length;
     }
 
     /**
-     *  输入节点集合与权重集合, 将节点配对, 再将节点拼成的String与权重配对
+     * 输入节点集合与权重集合, 将节点配对, 再将节点拼成的String与权重配对
+     *
      * @param node
      * @param weight
      * @return
      */
-    public HashMap<String, Integer> getLinkAndWeight(String[] node, Integer[][] weight){
+    public HashMap<String, Integer> getLinkAndWeight(String[] node, Integer[][] weight) {
 
         HashMap<String, Integer> linkAndWeightMap = new HashMap<>();
 
         // String[] combinedLinks = new String[node.length*node.length];
         String combinedLinks = "";
 
-        for (int i = 0; i < this.getNodeSize(); i++){
-            for (int j = 0; j < this.getNodeSize(); j++){
-                if (node[i].equals(node[j])){
+        for (int i = 0; i < this.getNodeSize(); i++) {
+            for (int j = 0; j < this.getNodeSize(); j++) {
+                if (node[i].equals(node[j])) {
                     this.weight[i][j] = 0;
                 }
-                combinedLinks = node[i]+"-"+node[j];
+                combinedLinks = node[i] + "-" + node[j];
                 if (node.length == weight.length) {
 
                     //   System.out.println(combinedLinks);
@@ -58,6 +60,44 @@ public class Graph {
         return linkAndWeightMap;
     }
 
+    /**
+     * 输入节点集合与权重集合, 将节点配对, 再将节点拼成的String与权重配对
+     *
+     * @param node
+     * @param weight
+     * @return
+     */
+    public HashMap<String, Double> getLinkAndWeight2(String[] node, Double[][] weight) {
+
+        HashMap<String, Double> linkAndWeightMap = new HashMap<>();
+
+        // String[] combinedLinks = new String[node.length*node.length];
+        String combinedLinks = "";
+
+        for (int i = 0; i < this.getNodeSize(); i++) {
+            for (int j = 0; j < this.getNodeSize(); j++) {
+                if (node[i].equals(node[j])) {
+                    weight[i][j] = Double.valueOf(0);
+                }
+                combinedLinks = node[i] + " vs " + node[j];
+
+                if (node.length == weight.length) {
+
+                    //   System.out.println(combinedLinks);
+                    //  System.out.println("------------------------");
+                    // System.out.println(weight[i]);
+                    linkAndWeightMap.put(combinedLinks, (Double) weight[i][j]);
+                    //System.out.println(linkAndWeightMap);
+                } else {
+                    System.out.println("节点对数与权重数量不符合");
+                }
+            }
+        }
+
+        return linkAndWeightMap;
+    }
+
+
     public String[] getNode() {
         return node;
     }
@@ -66,7 +106,7 @@ public class Graph {
         this.node = node;
     }
 
-    public Integer[][] getWeight() {
+    public Object[][] getWeight() {
         return weight;
 
     }
@@ -80,15 +120,18 @@ public class Graph {
         if (this == o) return true;
         if (!(o instanceof Graph)) return false;
         Graph graph = (Graph) o;
-        return node.equals(graph.node) &&
-                weight.equals(graph.weight) &&
+        return Arrays.equals(getNode(), graph.getNode()) &&
+                Arrays.equals(getWeight(), graph.getWeight()) &&
                 link.equals(graph.link) &&
                 linkAndWeight.equals(graph.linkAndWeight);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(node, weight, link, linkAndWeight);
+        int result = Objects.hash(link, linkAndWeight);
+        result = 31 * result + Arrays.hashCode(getNode());
+        result = 31 * result + Arrays.hashCode(getWeight());
+        return result;
     }
 
     @Override
@@ -101,3 +144,5 @@ public class Graph {
                 '}';
     }
 }
+
+
