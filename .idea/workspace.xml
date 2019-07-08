@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a1ecf23-add0-4102-9ced-125b7bea4a85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prim/src/com/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/prim/src/com/graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prim/src/com/graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="76">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
+            <state relative-caret-position="82">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/binary heap/src/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/prim/src/PrimAlgorithm.java" />
         <option value="$PROJECT_DIR$/prim/src/com/algorithm/PrimAlgorithm.java" />
-        <option value="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" />
         <option value="$PROJECT_DIR$/prim/src/com/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/prim/src/com/graph/GraphTest.java" />
       </list>
     </option>
   </component>
@@ -129,10 +128,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="220" />
-    <option name="y" value="275" />
+    <option name="x" value="437" />
+    <option name="y" value="287" />
     <option name="width" value="1430" />
-    <option name="height" value="615" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,7 +325,7 @@
       <workItem from="1562239277952" duration="7015000" />
       <workItem from="1562284808213" duration="16928000" />
       <workItem from="1562375140521" duration="2479000" />
-      <workItem from="1562549063678" duration="9824000" />
+      <workItem from="1562549063678" duration="12936000" />
     </task>
     <task id="LOCAL-00001" summary="add floyedSimulation">
       <created>1562054246729</created>
@@ -363,16 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562313180178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="another model">
+      <created>1562565006332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562565006332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edited">
+      <created>1562567339520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562567339520</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphTest_testGraph2 - 2019.07.08 at 13h 28m 41s.xml">
-      <configuration name="GraphTest.testGraph2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphTest_testGraph - 2019.07.08 at 13h 30m 12s.xml">
-      <configuration name="GraphTest.testGraph" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GraphTest_testGraph2 - 2019.07.08 at 13h 30m 46s.xml">
       <configuration name="GraphTest.testGraph2" configurationId="JUnit" />
     </history-entry>
@@ -397,15 +404,20 @@
     <history-entry file="GraphTest_testGraph2 - 2019.07.08 at 13h 45m 13s.xml">
       <configuration name="GraphTest.testGraph2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTest_testGraph2 - 2019.07.08 at 13h 49m 10s.xml">
+      <configuration name="GraphTest.testGraph2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testGraph2 - 2019.07.08 at 13h 52m 50s.xml">
+      <configuration name="GraphTest.testGraph2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79152000" />
+    <option name="totallyTimeSpent" value="82264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15063886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15063886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,14 +498,16 @@
     <MESSAGE value="add binaryHeap" />
     <MESSAGE value="add graph class" />
     <MESSAGE value="graphTest finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphTest finished" />
+    <MESSAGE value="another model" />
+    <MESSAGE value="edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java</url>
-          <line>42</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -681,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prim/src/com/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="76">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
@@ -698,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prim/src/com/graph/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
+        <state relative-caret-position="82">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
